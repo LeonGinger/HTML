@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="header"><img src="images/logo3.png"></div>
+        <div class="body">
+            <div class="sider">
+            </div>
+            <div class="container"></div>
+        </div>
+        <div class="footer">@版权所有 18软件1班</div>
+    </div>
+
+<script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.min.js"></script>
+<script>
+$().ready(function() {
+    $('.body').css('height', $(window).height() - $('.header').height() - $('.footer').height() -10)
+    loadNav()
+})
+function loadNav() {
+    $.get('nav.json', function(res) {
+        if(res.code === 0) {
+            var ul = $('<ul></ul>')
+            $.each(res.data, function(index, item) {
+                ul.append('<li><a href="' + item.url + '">' + item.title + '</a></li>')
+            })
+            $('.sider').html(ul)
+        }
+    })
+}
+</script>
+</body>
+</html>

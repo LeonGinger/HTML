@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<style type="text/css">
+body{
+	/*background:url('images/bear.jpg') no-repeat;
+	background-size: 400px 200px;*/
+}
+.wrap1{
+	height: 40px;
+	width: 300px;
+	text-align: center;
+
+	background-image: radial-gradient(red,green);
+}
+.wrap2{
+	width: 100px;
+	height: 100px;
+	background: repeating-radial-gradient(circle,transparent,transparent 5px,black 5px,black 10px);
+		border-radius:50%;
+
+}
+.wrap3{
+	width:200px;
+	height: 20px;
+	background-image: radial-gradient(closest-corner at 5px 5px, green,blue);
+}
+.wrap3:hover{
+	background-image: radial-gradient(farthest-corner at 1px 10px, green,blue);
+}
+.Grd1{width: 300px;height: 150px;
+}
+
+
+.img1{
+	width: 400px;
+	height: 200px;
+	background:url('images/bear.jpg') no-repeat;
+	background-size: 100%;
+	
+
+/*border-box | padding-box | content-box*/
+}
+
+
+
+.img2{
+	background-origin: content-box;
+	margin-top: 10px;
+	width: 400px;
+	height: 400px;
+	background:yellow url('images/rabbit.jpg') no-repeat;
+
+}
+</style>
+<body>
+<div class="wrap1">font font font</div>
+<div class="wrap2"></div>
+<div class="wrap3"></div>
+
+<div class="Grd1"></div>
+
+
+<div class="img1"></div>
+<div class="img2"></div>
+
+</body>
+</html>
