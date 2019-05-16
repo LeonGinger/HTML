@@ -1,0 +1,38 @@
+.all{background: rgb(0,171,217);padding-top: 10px;}
+
+.one{width: 240px;  box-shadow: 10px 10px 0 0 rgba(0,0,0,0.2);margin:0 auto;background-color: white;}
+.one div{height: 50px; transition: 2s;overflow:hidden;background:black;color:white;}
+.one:hover div{transform: translateY(-20px);height: 120px;}
+
+
+
+.two{position: relative; width: 268px; margin:0 auto;background: white;margin-top:20px;overflow:hidden; }
+.two div{position: absolute;top: -24px;transition: 2s;}
+.two:hover div{transform: translateY(24px);}
+.two .t1{
+  
+    border: 1px solid #05920a;
+    background: #05920a;
+    color: #fff;
+    margin-right: 8px;
+
+}
+
+.two .t2 {
+    color: #f25751;
+    border: solid 1px #f25751;
+}
+
+.three{
+    
+	background: white;
+	width: 380px;
+	margin:0 auto;
+	margin-top:20px;
+	opacity: 0.5;
+    transition: 2s;
+}
+.three:hover{opacity: 1;}
+.three div{transform: rotateX(100deg);transition: 2s;}
+.three div:hover .three{opacity: 0;}
+.three:hover div{transform: rotateX(0deg);}
