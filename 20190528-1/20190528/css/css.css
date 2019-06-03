@@ -1,0 +1,43 @@
+*{margin:0;padding: 0;}
+body{background:rgb(0,171,217);}
+a{text-decoration: none;}
+ul{list-style: none;}
+header{background-color: #009fca;margin:0;padding: 0;height: 80px;}
+.active{background: rgba(255,255,255,0.3);border: 1px solid white;}
+.logo{background-image: url('../images/logo.png');width:145px;height:61px; position: absolute;left: 15%;margin: 10px;}
+.nav{width: 600px;margin: 0 auto;padding-left:100px;padding-top:20px;height: 50px;line-height: 30px;}
+.nav ul{height: 100px;}
+.nav ul li{margin: 1px;display: inline-block;width: 110px;text-align: center;border-radius:100px;}
+.nav ul li:hover{background: rgba(255,255,255,0.3);border: 1px solid white;}
+.nav ul li a{display: block;color: white;font-size: 16px;}
+
+
+.quxian{height:200px;}
+.quxian1{background:url('../images/quxian1.png');
+	animation: quxian1 20s linear infinite;opacity: 0.2;
+}
+.quxian2{background:url('../images/quxian2.png');
+	animation: quxian2 40s linear infinite;opacity: 0.2;
+	position: relative;
+	top: -200px;
+}
+
+
+@keyframes quxian1{from{background-position: 0px center;}to{background-position: 1920px center;}}
+@keyframes quxian2{from{background-position: 0px center;}to{background-position: -1920px center;}}
+@keyframes quan{from{transform: scale(1);opacity: 1;}to{transform: scale(1.3);opacity:0.1;}}
+.contariner{width: 960px;margin:0 auto;}
+.running{list-style: none;}
+.running li{display: inline-block;position: relative;width: 138px;height: 138px;}
+.running li a{
+	width: 138px;background:url('../images/fuwu_quan_img.png');
+	text-align: center;;
+	line-height: 138px;
+	font-size: 20px;
+	color: #124655;
+	text-decoration: none;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.running li:hover img{animation: quan 2s linear infinite;}
