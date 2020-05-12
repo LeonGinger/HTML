@@ -11,7 +11,6 @@
 
 The files tree is:
 =================
-.
 │  README.md
 │  
 │
