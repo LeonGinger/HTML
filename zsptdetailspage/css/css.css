@@ -1,0 +1,198 @@
+@charset "utf-8";
+*{ margin:0px auto; padding:0px;}
+a{ text-decoration:none;}
+ul{ list-style:none;}
+.clear{ clear:both;}
+body{ background:url(../images/bj2.jpg) no-repeat;}
+.wrapper {
+	margin:0px auto;
+	padding:0px;
+}
+.wrapper .header .top{position:relative;}
+
+.wrapper .header .top .logo h1 {text-indent:-9999px;}
+.wrapper .header .top .logo {
+	margin:40px;
+	background:url(../images/logo3.png) no-repeat;
+	height:94px;
+	width:380px;
+}
+.wrapper .header .top .link{
+	position:absolute;
+	height:100px;
+	left:1200px;
+	top:50px;
+	}
+.wrapper .header .top .link ul{
+	width:300px;
+	margin:0px auto;}
+.wrapper .header .top .link ul li{display:inline-block;}
+.wrapper .header .top .link ul li a{ color:#000;}
+.wrapper .header .top .link ul li .icon1 {
+	background:url(../images/home.png) no-repeat;
+	display:inline-block;
+	width:19px;
+	height:19px;	
+}
+.wrapper .header .top .link ul li .icon2 {
+	background:url(../images/contact.png) no-repeat;
+	display:inline-block;
+	width:19px;
+	height:19px;	
+}
+/*dh*/
+.wrapper .header .nav {
+	margin:0px auto;
+	background-color:#004e87;
+	width:100%;
+	
+}
+.wrapper .header .nav ul{
+	text-align:center;
+	 width:1100px;
+	 background-color:#004e87;
+	 }
+.wrapper .header .nav ul li{
+	text-align:center; 
+	height:40px;
+	width:110px;
+	display:inline-block;}
+.wrapper .header .nav ul li a{
+	color:#FFF;
+	line-height:40px;}
+.wrapper .header .nav ul li:hover{
+	background-color:#383430;}
+.wrapper .content {
+	background:url(../images/bg.jpg);
+	margin:0px auto;
+	padding:0px;	
+}
+/*cont*/
+.wrapper .content .cont {
+		width:1100px;		
+}
+.wrapper .content .con_left {
+	width:250px;
+	float:left;
+	margin:20px;
+}
+/**/
+.wrapper .content .newslist {
+	width:650px;
+	float:left;
+	margin-top:20px;
+	
+}
+.wrapper .content .con_left .newsnav h2 {
+	background:url(../images/link_bg.png) no-repeat;
+	color:#FFF;
+	background-color:#f1f1f1;
+	height:33px;
+}
+.wrapper .content .cont .con_left .newsnav h2 span {
+	margin:40px;
+	line-height:33px;
+	font-size:16px;
+}
+.wrapper .content .con_left .newsnav {width:250pxpx;}
+.wrapper .content .con_left .newsnav ul{border:1px solid #CCC;}
+.wrapper .content .con_left .newsnav ul li {
+	background:url(../images/t2.png) no-repeat 10px 5px;
+	border:dashed 1px #CCCCCC;
+	height:34px;
+	white-space:nowrap;
+	overflow:hidden;
+	text-overflow:ellipsis;
+	font-size:12px;
+	color:#666;
+}
+.wrapper .content .con_left .newsnav ul li a{
+	margin:20px;
+	line-height:25px;
+	color:#000;
+}
+.wrapper .content .cont .con_left .qq { margin:10px;}
+.wrapper .content .cont .con_left .qq ul{ text-align:center;}
+.wrapper .content .cont .con_left .qq ul li{
+	width:82px;
+	height:25px;
+	display:inline-block;
+	background:url(../images/button_111.jpg) no-repeat;
+	}
+.wrapper .content .cont .con_left .qq ul li a {
+}
+.wrapper .content .cont .con_left .tel {
+	margin:10px;
+	text-align:center;
+	width:200px;
+}
+/**/
+
+.wrapper .content .cont .newslist h3 {
+	position:absolute;
+	background-color:#f8f8f8;
+}
+.wrapper .content .cont .newslist{
+	background-color:#FFF;
+	}
+	
+.wrapper .content .cont .newslist .postion ul {
+	width:300px;
+	
+}
+.wrapper .content .cont .newslist .postion ul li{
+	position:relative;
+	color:#666;
+	display:inline-block;
+	left:400px;
+	}
+.wrapper .content .cont .newslist .postion ul li a{ color:#000;}
+.wrapper .content .cont .newslist .list ul li {
+	background:url(../images/t2.png) no-repeat 0px 5px;
+	margin:20px;
+	border-bottom:1px dashed #CCC;
+}
+.wrapper .content .cont .newslist .list ul li a{
+	position:relative;
+	margin-left:10px;
+	color:#666;
+	font-size:14px;
+	}
+.wrapper .content .cont .newslist .list ul li span {
+	position:absolute;
+	color:#CCC;
+	left:1050px;
+	font-size:14px;
+}
+/*footer*/
+.wrapper .footer {
+	background-color:#004e87;
+	text-align:center;
+	color:#FFF;
+	padding:40px;
+}
+.wrapper .footer p {
+	margin:10px;
+}
+.wrapper .footer .foot {
+	width:1100px;
+}
+.wrapper .kefu {
+	 z-index:auto;
+	 position:absolute;
+	 top:50%;
+	 left:98%;}
+
+/*分页*/
+.wrapper .content .cont .newslist .page {
+	margin:20px;}
+.wrapper .content .cont .newslist .page ul li {
+	display:inline-block;
+	border:solid 1px #999999;
+	line-height:32px;
+}
+.wrapper .content .cont .newslist .page ul li a{ color:#000;}
+.wrapper .content .cont .newslist .page ul li:hover{
+	background-color:#999;}
+/**/
+

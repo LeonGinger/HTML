@@ -1,0 +1,181 @@
+@charset "utf-8";
+/* CSS Document */
+*{ margin:0px auto; padding:0px;}
+.clear{ clear:both;}
+a{ text-decoration:none; color:#000;}
+.wrapper{ margin:0px auto;  padding:0px;}
+
+
+.wrapper .header .top{
+	width:1000px;
+	height:100px;
+	}
+.wrapper .header .top .logo {
+	margin:20px;
+	position:absolute;
+	background:url(../images/logo.png);
+	width:263px;
+	height:53px;
+}
+.wrapper .header .top .logo h1 {text-indent:-9999px;}
+.wrapper .header .top .about ul {
+	position:relative;
+	left:400px;
+	top:50px;
+	list-style:none;
+	width:200px;
+}
+.wrapper .header .top .about ul li {
+	display:inline-block;
+}
+
+
+.wrapper .header .top .about ul .icon1 {
+	background:url(../images/home.png) no-repeat;
+}
+.wrapper .header .top .about ul .icon2 {
+	background:url(../images/cont.png) no-repeat;
+}
+.wrapper .header .top .about ul  a {margin-left:15px;}
+
+
+.wrapper .header .nav {background:url(../images/dh.png) repeat-x; height:33px;}
+.wrapper .header .nav ul{width:900px;}
+.wrapper .header .nav ul li { 
+		display:inline-block;
+		width:100px;
+		text-align:center;	
+}
+.wrapper .header .nav ul li a{
+	color:#FFF;
+	height:33px;
+	line-height:33px;}
+.wrapper .content .index_banner {
+	height:311px;
+	background:url(../images/banner.png) no-repeat;
+	width:980px;
+	border-bottom:#CCC solid 5px;
+}
+
+
+.wrapper .content .index_content {
+	width:1000px;
+}
+.wrapper .content .index_content .content_left {
+	float:left;
+	width:550px;
+}
+
+
+.wrapper .content .index_content .content_left .content_about  span {
+	left:450px;
+	top:40px;
+	position:relative;
+}
+.wrapper .content .index_content .content_left .content_about h1 {
+	color:#333;
+	border-bottom:solid 1px #999999;
+	margin:20px;
+}
+.wrapper .content .index_content .content_left .content_about h2 {
+	color:#b21616;
+	margin:20px;
+}
+.wrapper .content .index_content .content_left .content_about p {
+	color:#333;
+	margin:20px;
+}
+.wrapper .content .index_content .content_left .content_about span a {
+	color:#333;
+}
+
+.wrapper .content .index_content .content_right {
+	float:left;
+	width:400px;	
+}
+.wrapper .content .index_content .content_right .content_focus {margin-top:50px;}
+.wrapper .content .index_content .content_left .content_news{
+	}
+.wrapper .content .index_content .content_left .content_news .sp1 {
+	left:450px;
+	top:40px;
+	position:relative;
+}
+.wrapper .content .index_content .content_left .content_news .sp1 a{color:#333;}
+.wrapper .content .index_content .content_left .content_news h1 {
+	color:#333;
+	border-bottom:solid 1px #999999;
+	margin:20px;
+}
+.wrapper .content .index_content .content_left .content_news h2 {
+	color:#b21616;
+	margin:20px;
+}
+.wrapper .content .index_content .content_left .content_news .list {
+	margin:15px;
+}
+.wrapper .content .index_content .content_left .content_news .list ul{
+	list-style:none;}
+.wrapper .content .index_content .content_left .content_news .list ul span {
+	color:#b21616;
+	position:relative;
+	left:400px;
+	top:20px;
+}
+.wrapper .content .index_content .content_left .content_news .list ul li a{
+	color:#333;}
+.wrapper .content .index_content .content_right .content_kf {
+	background:url(../images/bg.png) repeat-x;
+	height:176px;
+}
+.wrapper .content .index_content .content_right  span {
+	position:relative;
+	left:70px;
+	top:10px;
+	font-size:20px;
+	color:#b21616;
+}
+.wrapper .content .index_content .content_right  h2 {
+	position:relative;
+	top:-10px;
+	font-size:16px;
+	color:#666;
+}
+.wrapper .content .index_content .content_right  .con {
+	margin:40px;
+	background:url(../images/peo.png) no-repeat;
+	height:55px;
+}
+
+.wrapper .content .index_content .content_right  .con p {
+	color:#666;
+	font-size:14px;
+	margin-left:70px;
+}
+.wrapper .content .index_content .content_right .content_contact {
+	background:url(../images/bg.png) repeat-x;
+}
+.wrapper .content .index_content .content_right .content_contact .con{
+	background:url(../images/peo1.png) no-repeat;}
+
+.wrapper .footer{ width:1000px;}
+.wrapper .footer .fimg {
+	background:url(../images/logo.png) no-repeat;
+	position:relative;
+	height:53px;
+	width:500px;
+	top:-50px;
+	left:400px;
+}
+.wrapper .footer ul{
+	margin:20px;
+	list-style:none;
+	}
+.wrapper .footer ul li {color:#999;}
+.wrapper .content .index_produce ul{ width:1000px; border-bottom:#CCC solid 5px;}
+.wrapper .content .index_produce ul li {
+	display:inline-block;
+	width:150px;
+}
+
+

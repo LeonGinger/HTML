@@ -1,0 +1,58 @@
+@charset "utf-8";
+*{margin:0px; padding:0px;}
+a{ text-decoration:none;}
+.clear{ clear:both;} 
+body{
+background-image:url(../images/img05.jpg);
+background-attachment: fixed;
+background-repeat:repeat-x;
+background-color:#1b120b;}
+.wrapper { 
+		margin:0 auto;
+		width:1000px;
+}
+.wrapper .header .top_info {
+	background-image:url(../images/img02.jpg);
+	height:240px;
+}
+.wrapper .header .top h1 {text-indent:-9999px;}
+
+.wrapper .header .top_info .info {color:#FFF;}
+.wrapper .header .top_info .info .info1 { margin-left:50px; width:500px; float:left; font-size:5em;}
+.wrapper .header .top_info .info .info2 { margin-left:-180px; width:500px; float:left; font-size:10px; padding-top:100px;}
+
+.wrapper .content{ background-color:#aea49a; }
+
+.wrapper .content .nav {background:url(../images/img03.jpg);background-repeat:repeat-x;}
+.wrapper .content .nav ul{ margin-left:10px;}
+.wrapper .content .nav ul li { display:inline-block; width:60px; text-align:center;margin:6px;}
+.wrapper .content .nav ul li a {color:#FFF; display:inline-block; line-height:20opx;}
+.wrapper .content .cont {  background-color:#FFF; float:left; width:740px;}
+.wrapper .content .dirc { background-color:#eee7df; float:left; width:240px;}
+.wrapper .footer { background:url(../images/img01.jpg);}
+.wrapper .content .cont_T {width:980px; margin:0 auto;}
+
+
+
+.wrapper .content .cont_T .cont .cont_info h2 { font-weight:300;
+}
+.wrapper .content .cont_T .cont .cont_info .more { background-color:#000; width:110px;; height:30px;  text-align:right;
+}
+.wrapper .content .cont_T .cont .cont_info .more a { background-color:#a03128; margin-left:10px; line-height:30px; display:inline-block; width:120px; text-align:center; color:#FFF;
+}
+.wrapper .content .cont_T .cont .cont_info p { padding:20px;}
+.wrapper .content .cont_T .cont .cont_info { padding:30px;}
+.wrapper .content .cont_T .dirc .dh ul li h1 { font-weight:200;}
+
+
+.wrapper .content .cont_T .dirc .dh ul { list-style:none;}
+.wrapper .content .cont_T .dirc .dh ul li{ padding:10px; font-size:14px; border-bottom: #999 dashed 1px; }
+.wrapper .content .cont_T .dirc .dh ul li a {color:#b94e0e;}
+.wrapper .content .cont_T .dirc .dh h2{ font-weight:300; color:#000;}
+.wrapper .content .cont_T .dirc .dh { margin:20px;}
+.wrapper .content .cont_T .dirc { height:694px;}
+
+
+.wrapper .footer { height:100px; text-align:center; color:#FFF;}
+.wrapper .footer .p_foot { padding-top:50px;
+}

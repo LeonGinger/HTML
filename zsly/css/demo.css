@@ -1,0 +1,54 @@
+@charset "utf-8";
+/* CSS Document */
+*{ margin:0px auto; padding:0px;}
+.clear{ clear:both;}
+.wrapper{ width:1000px; background-color:#f3f3f3;}
+ul{ list-style:none;}
+a{ text-decoration:none;}
+body{ background-color:#f3f3f3;}
+.wrapper .header {
+	height:95px;
+	background:url(../img/bg_index_top.jpg) no-repeat;
+}
+.wrapper .header .h_con{
+	width:110px;
+	float:left;
+	margin:15px;
+	}
+.wrapper .header .nav{
+	margin:25px;
+	float:left;
+	width:800px;
+}
+.wrapper .header .nav ul li{
+	text-align:center;
+	display:inline-block;
+	width:100px;
+	}
+.wrapper .header .nav ul li a{
+	color:#000;
+	font-weight:bold;
+	}
+.wrapper .header .h_con p span {color:#999;}
+
+/**/
+.wrapper .content{
+	padding:0px;
+	margin:0px auto;}
+.wrapper .content .banner {
+	background:url(../img/banner_inner.jpg) no-repeat -400px;
+	height:165px;
+}
+/**/
+.wrapper .footer {
+	background-color:#288e28;
+	text-align:center;
+	border:10px solid #288e28;
+}
+.wrapper .footer p{}
+.wrapper .footer p span {
+	font-size:12px;
+	color:#FFF;
+	
+}
+/**/

@@ -1,0 +1,88 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>订餐</title>
+<script type="text/javascript" src="../js/order.js"></script>
+<link href="../css/css.css" rel="stylesheet" type="text/css">
+</head>
+<style type="text/css">
+*{ margin:0px auto; padding:0px;}
+
+
+</style>
+<body style="width:1000px;">
+
+<div class="cont">
+<form id="form1" name="form1" method="post" action="php/Test.php">
+<table width="0" border="" id="table-1">
+  <tr>
+    <td colspan="2"><div class="bt" style="text-align:center"><h2>点餐系统</h2><br><p>现在是<span id="time"></span></p></div></td>
+    
+  </tr>
+  <tr>
+    <td >餐价</td>
+    <td>早餐4元/份&nbsp;午餐10元/份&nbsp;晚餐10元/份</td>
+  </tr>
+  <tr>
+    <td>点餐说明</td>
+    <td>
+    
+    早餐点餐时间为:08:00--20:00(订第二天早餐)<br>
+    午餐点餐时间：08：00--10:00(订当天中餐)<br>
+    	14：00--20：00(订第二天三中餐)<br>
+        晚餐点餐时间为:14:00-16:00(订当天晚餐)<br>
+        18：00-20：00(订第二天晚餐)<br>
+        其他时间点餐无效，没人每餐最多点2份
+    </td>
+  </tr>
+  <tr>
+    <td>科室</td>
+    <td>
+    
+    <select name="select" id="classCH" onChange="choiseClass()">
+    	<option></option>
+    </select>
+     </td>
+  </tr>
+  <tr>
+    <td>姓名</td>
+    <td>    
+    <select name="select2" id="nameCH" onChange="printcont('nameCH','Pname')">
+    	<option></option>
+    </select>
+    </td>
+  </tr>
+  <tr>
+    <td>点餐</td>
+    <td>
+    <input id="morning" name="" type="checkbox" value="" onClick="choisedinner('morning','dinnerMor','Pmorn','tip1')">早餐<input name="morn" min="0" max="2" id="dinnerMor" type="number" value="0" disabled="disable" onmouseup="printp('dinnerMor','Pmorn');money()"><a style="color:#F00;" id="tip1"></a><br>
+    <input id="afternoon" type="checkbox" value=""  onClick="choisedinner('afternoon','dinnerAft','Pafter','tip2')">午餐<input name="after" min="0" max="2"  maxlength="2" id="dinnerAft" type="number" value="0"   disabled="disable" onmouseup="printp('dinnerAft','Pafter');money()"><a style="color:#F00;" id="tip2"></a><br>
+    <input id="evening" type="checkbox" value=""  onClick="choisedinner('evening','dinnerEev','Peven','tip3')">晚餐<input name="even" min="0" max="2"  id="dinnerEev" type="number" value="0" disabled="disable" onmouseup="printp('dinnerEev','Peven');money()"><a style="color:#F00;" id="tip3"></a><br>
+    
+    
+    </td>
+  </tr>
+  <tr>
+    <td>信息</td>
+    <td>
+	  科室:<p id="Pclass"></p>
+      名字:<p id="Pname"></p>
+      早餐:<p id="Pmorn"></p>
+      午餐:<p id="Pafter"></p>
+      晚餐:<p id="Peven"></p>
+      共计:<p id="Pmoney">0</p>元
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2" style="text-align:center">
+    <span>LEONGINGER</span><br>
+    <input type="button" id="Torder"  value="确认订餐" onClick="OKorder()" >
+    </td>
+  
+  </tr>
+</table>
+</form>
+</div>
+</body>
+</html>
